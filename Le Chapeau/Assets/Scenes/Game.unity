@@ -1752,10 +1752,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerContainers:
-  - {fileID: 2406753175417870854, guid: e8266b3b6fb3dc04185d905dc15803a8, type: 3}
-  - {fileID: 2406753175417870854, guid: e8266b3b6fb3dc04185d905dc15803a8, type: 3}
-  - {fileID: 2406753175417870854, guid: e8266b3b6fb3dc04185d905dc15803a8, type: 3}
-  - {fileID: 2406753175417870854, guid: e8266b3b6fb3dc04185d905dc15803a8, type: 3}
+  - obj: {fileID: 1074341566}
+    nameText: {fileID: 1955149504}
+    hatTimeSlider: {fileID: 1941732656}
+  - obj: {fileID: 2018709872}
+    nameText: {fileID: 1750637100}
+    hatTimeSlider: {fileID: 880535415}
+  - obj: {fileID: 585196717}
+    nameText: {fileID: 1455037289}
+    hatTimeSlider: {fileID: 1724488172}
+  - obj: {fileID: 1348842526}
+    nameText: {fileID: 1985893086}
+    hatTimeSlider: {fileID: 920398650}
   winText: {fileID: 1649379118}
 --- !u!1 &1623364419
 GameObject:
