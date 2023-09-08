@@ -7181,8 +7181,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Menu_UpdateLobbyUI_m42F4EBC3137C8E7D523F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
 // System.Boolean Photon.Pun.PhotonNetwork::get_IsMasterClient()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonNetwork_get_IsMasterClient_mD04046028C484F06D77A1C36C64FFAC285C2DF9C (const RuntimeMethod* method) ;
-// System.Void UnityEngine.Object::DontDestroyOnLoad(UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_target, const RuntimeMethod* method) ;
 // System.Boolean Photon.Pun.PhotonNetwork::ConnectUsingSettings()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonNetwork_ConnectUsingSettings_m5062DDA82806820AE9358F849B0533B82230E540 (const RuntimeMethod* method) ;
 // System.Boolean Photon.Pun.PhotonNetwork::CreateRoom(System.String,Photon.Realtime.RoomOptions,Photon.Realtime.TypedLobby,System.String[])
@@ -8972,7 +8970,7 @@ IL_001c:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
-		goto IL_0043;
+		goto IL_0037;
 	}
 
 IL_002f:
@@ -8980,14 +8978,9 @@ IL_002f:
 		// instance = this;
 		((NetworkManager_t34FC479255EC74DE917E6E400B1430EBE2CCA7CB_StaticFields*)il2cpp_codegen_static_fields_for(NetworkManager_t34FC479255EC74DE917E6E400B1430EBE2CCA7CB_il2cpp_TypeInfo_var))->___instance_5 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((NetworkManager_t34FC479255EC74DE917E6E400B1430EBE2CCA7CB_StaticFields*)il2cpp_codegen_static_fields_for(NetworkManager_t34FC479255EC74DE917E6E400B1430EBE2CCA7CB_il2cpp_TypeInfo_var))->___instance_5), (void*)__this);
-		// DontDestroyOnLoad(gameObject);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
-		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7(L_6, NULL);
 	}
 
-IL_0043:
+IL_0037:
 	{
 		// }
 		return;

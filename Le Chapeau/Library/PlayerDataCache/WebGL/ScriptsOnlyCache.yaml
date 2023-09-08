@@ -7,6 +7,8 @@ ScriptsOnlyBuild:
     - NetworkManager
     - PlayerController
     PhotonUnityNetworking.Editor.dll:
+    - Photon.Pun.PhotonTransformViewEditor
+    - Photon.Pun.PhotonViewInspector
     - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonTransformView
@@ -117,8 +119,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
@@ -138,8 +138,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3014}
     - Class: 114
-      Script: {instanceID: 3028}
-    - Class: 114
       Script: {instanceID: 3694}
     - Class: 114
       Script: {instanceID: 5004}
@@ -153,8 +151,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6092}
     - Class: 114
       Script: {instanceID: 6502}
-    - Class: 114
-      Script: {instanceID: 7492}
     - Class: 114
       Script: {instanceID: 7704}
     - Class: 115

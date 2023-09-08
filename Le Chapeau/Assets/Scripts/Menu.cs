@@ -17,7 +17,7 @@ public class Menu : MonoBehaviourPunCallbacks
     [Header("Lobby Screen")]
     public TextMeshProUGUI playerListText;
     public Button startGameButton;
-    [PunRPC]
+    
 
     void Start()
     {
@@ -80,7 +80,8 @@ public class Menu : MonoBehaviourPunCallbacks
         // OnPlayerLeftRoom gets called for all clients in the room, so we don't need to RPC
         UpdateLobbyUI();
     }
-    
+
+    [PunRPC]
     public void UpdateLobbyUI()
     {
         playerListText.text = "";
